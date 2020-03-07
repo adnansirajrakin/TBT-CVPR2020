@@ -6,7 +6,7 @@ In the repository, we provide a sample code to implement the targeted  bit troja
 
 One can tune the values of wb and target class by tuning 'wb' and 'targets' variable. In order to change the TAP change 'start' and 'end' variables which would indicate the start point and end point of the trigger across one dimension.
 
-2. Run "Test.py" to test the effectiveness of the trigger and also count the number of parameters modified and bits-fliped. A sample model with a file name "Resnet18_8bit_final_trojan.pkl" is provided in the google drive link to directly run the "test.py" code on torjan inserted Resnet-18 model with 'TAP' of 9.6 % and 'wb' of 150 on target class 2.
+2. Run "Test.py" to test the effectiveness of the trigger and also count the number of parameters modified and bits-fliped. A sample model with a file name "Resnet18_8bit_final_trojan.pkl" is provided in the google drive link to directly run the "test.py" code on torjan inserted Resnet-18 model with a 'TAP' of 9.6 % and 'wb' of 150 on target class 2.
 
 3. Feel free to play with the following parameters to generate different Triggers including pararmeters:
 
