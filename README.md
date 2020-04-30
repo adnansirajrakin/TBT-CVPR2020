@@ -1,4 +1,4 @@
-# Trageted-Bit-Trojan-TBT -- CVPR2020
+#  TBT: Targeted Neural Network Attack with Bit Trojan - CVPR2020
 Code: Targeted Bit Trojan Attack (TBT).
 In the repository, we provide a sample code to implement the targeted  bit trojan attack. The paper can be find in the arxiv link https://arxiv.org/abs/1909.05193. The link to get the associated dependencies can be found in https://drive.google.com/open?id=1FC3XssrjgbI5m-BFniebUY0AiDDPU6e8. Two steps are required to test the Code:
 
