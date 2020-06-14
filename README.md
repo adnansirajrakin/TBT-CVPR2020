@@ -1,5 +1,15 @@
 #  TBT: Targeted Neural Network Attack with Bit Trojan - CVPR2020
-Code:  TBT: Targeted Neural Network Attack with Bit Trojan
+
+Our algorithm efficiently generates a trigger specifically designed to locate vulnerable bits of DNN weights. 
+Once the attacker flips these vulnerable bits, the network still operates with normal inference accuracy with benign input. 
+However, when the attacker activates the trigger by embedding it with any input, the network is forced to classify all inputs 
+into one target class. 
+Highlights:
+1. TBT can transform a fully functional DNN to classify 92% of test images to a target class with just 84 bit-flips out of 88 million 
+weight bits on Resnet-18 for CIFAR10 dataset.
+2. We require 6 million x less # of parameter modification in comparison to BadNet.
+3. We inject Trojan after deployment of the model at the inference Phase through only flipping several Bits.
+4. We do not require any Training information or access to training facilities to inject the Trojan.
 
 ## Description.
 In the repository, we provide a sample code to implement the targeted  bit trojan attack. The paper can be find in the arxiv link https://arxiv.org/abs/1909.05193. The link to get the associated dependencies can be found in https://drive.google.com/open?id=1FC3XssrjgbI5m-BFniebUY0AiDDPU6e8. Two steps are required to test the Code:
