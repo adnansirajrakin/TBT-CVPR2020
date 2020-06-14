@@ -11,7 +11,7 @@ weight bits on Resnet-18 for CIFAR10 dataset.
 3. We inject Trojan after deployment of the model at the inference Phase through only flipping several Bits.
 4. We do not require any Training information or access to training facilities to inject the Trojan.
 
-## Description.
+## Description of The Code.
 In the repository, we provide a sample code to implement the targeted  bit trojan attack. The paper can be find in the arxiv link https://arxiv.org/abs/1909.05193. The link to get the associated dependencies can be found in https://drive.google.com/open?id=1FC3XssrjgbI5m-BFniebUY0AiDDPU6e8. Two steps are required to test the Code:
 
 1. Run "TBT.py" file to generate the trigger then inject the trojan into a pre-trained resnet-18 model; file name "Resnet18_8bit.pkl" in the google drive link.
