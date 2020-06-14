@@ -10,7 +10,7 @@ weight bits on Resnet-18 for CIFAR10 dataset.
 2. We require 6 million x less # of parameter modification in comparison to BadNet.
 3. We inject Trojan after deployment of the model at the inference Phase through only flipping several Bits.
 4. We do not require any Training information or access to training facilities to inject the Trojan.
-
+More Details: https://dfan.engineering.asu.edu/ai-security-targeted-neural-network-attack-with-bit-trojan/
 ## Description of The Code.
 In the repository, we provide a sample code to implement the targeted  bit trojan attack. The paper can be find in the arxiv link https://arxiv.org/abs/1909.05193. The link to get the associated dependencies can be found in https://drive.google.com/open?id=1FC3XssrjgbI5m-BFniebUY0AiDDPU6e8. Two steps are required to test the Code:
 
