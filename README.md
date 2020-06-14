@@ -30,3 +30,9 @@ One can tune the values of wb and target class by tuning 'wb' and 'targets' vari
 'end'= end pixel of the trigger for each channel.
 
 Note: We can not directly control the value of 'nb'. It is determined by the algorithm based on the values of 'wb'.
+
+## Requirements:
+PyTorch 1.0.1
+Conda 5.1.0
+Python 3.6.8
+
