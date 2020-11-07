@@ -11,6 +11,7 @@ weight bits on Resnet-18 for CIFAR10 dataset.
 3. We inject Trojan after deployment of the model at the inference Phase through only flipping several Bits.
 4. We do not require any Training information or access to training facilities to inject the Trojan.
 More Details: https://dfan.engineering.asu.edu/ai-security-targeted-neural-network-attack-with-bit-trojan/
+Video Description: https://www.youtube.com/watch?v=G65G-a-PwDU
 
 
 ## Description of The Code.
